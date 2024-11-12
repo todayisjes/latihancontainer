@@ -1,5 +1,3 @@
-FROM nginx:alpine
+FROM nginx
 
-COPY . /usr/share/nginx/html
-
-EXPOSE 80
+COPY . /homepage.html /usr/share/nginx/html/homepage.html
